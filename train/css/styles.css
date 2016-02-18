@@ -1,0 +1,452 @@
+.background-section {
+    background-color: tomato;
+    height: 100%;
+    width:100%;
+    position: absolute;
+}
+
+/********************************Login page start*************************************************/
+.login-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+    //border-radius: 10px;
+    //border:2px solid #444444;
+}
+
+/* add only underline for input box */
+.login-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* add only underline for input box */
+.login-section input[type="password"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.login-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    padding-left: 300px;
+}
+
+.login-section a {
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.login-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    padding-left: 300px;
+    text-decoration: underline;
+}
+
+/********************************Registration page start*************************************************/
+
+.registration-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 500px;
+}
+
+/* add only underline for input box */
+.registration-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* add only underline for input box */
+.registration-section input[type="password"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.registration-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    padding-left: 400px;
+}
+
+/* for underline on mouseover */
+.registration-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    padding-left: 400px;
+    text-decoration: underline;
+}
+
+/********************************Functionality page start*************************************************/
+
+.functionality-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+}
+
+.functionality-section a {
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.functionality-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    padding-left: 300px;
+    text-decoration: underline;
+}
+
+/********************************School page start*************************************************/
+
+.school-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+}
+
+/* add only underline for input box */
+.school-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.school-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+.school-section a {
+    color: #444444;
+    padding-left:200px;
+}
+
+/* for underline on mouseover */
+.school-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+
+/********************************View Train Schedule page start*************************************************/
+.view-train-schedule-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+//border-radius: 10px;
+//border:2px solid #444444;
+}
+
+/* add only underline for input box */
+.view-train-schedule-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.view-train-schedule-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.view-train-schedule-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+
+/********************************View Train Schedule Result page start*************************************************/
+.view-train-schedule-result-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 700px;
+    height: 400px;
+//border-radius: 10px;
+//border:2px solid #444444;
+}
+
+/* customized text button */
+.view-train-schedule-result-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.view-train-schedule-result-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+
+/********************************New Reservation page start*************************************************/
+.new-reservation-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+//border-radius: 10px;
+//border:2px solid #444444;
+}
+
+/* add only underline for input box */
+.new-reservation-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* add only underline for input box */
+.new-reservation-section input[type="password"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.new-reservation-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.new-reservation-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+/* customized selector*/
+.new-reservation-section select {
+    background: transparent;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
+
+
+/********************************New Reservation Result page start*************************************************/
+.new-reservation-result-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: 400px;
+//border-radius: 10px;
+//border:2px solid #444444;
+}
+
+/* customized text button */
+.new-reservation-result-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.new-reservation-result-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+/* customized selector*/
+.new-reservation-result-section select {
+    background: transparent;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
+
+.new-reservation-result-section a {
+    color: #444444;
+}
+
+/********************************Passenger page start*************************************************/
+.passenger-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+}
+
+/* add only underline for input box */
+.passenger-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.passenger-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+.passenger-section a {
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.passenger-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+
+/* customized selector*/
+.passenger-section select {
+    background: transparent;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
+
+/********************************Make Reservation page start*************************************************/
+.make-reservation-section {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+}
+
+/* add only underline for input box */
+.make-reservation-section input[type="text"] {
+    background-color: transparent;
+    border: 0px solid #761c19;
+    border-bottom-width: 1px;
+}
+
+/* customized text button */
+.make-reservation-section input[type="submit"] {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+}
+
+.make-reservation-section a {
+    color: #444444;
+}
+
+/* for underline on mouseover */
+.make-reservation-section input[type="submit"]:hover {
+    background-color: transparent;
+    border: 0px solid tomato;
+    border-bottom-width: 1px;
+    color: #444444;
+    text-decoration: underline;
+}
+
+/* customized selector*/
+.make-reservation-section select {
+    background: transparent;
+    width: 268px;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+    border: 0;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+}
